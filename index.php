@@ -48,22 +48,10 @@
 <body>
 
     <!-- NAV -->
-    <nav>
-        <img src="./assets/img/logos/panaderia-aginaga-logo.svg" alt="Logotipo Panadería Aginaga" title="Panadería Aginaga" width="100" height="40">
-
-        <ul>
-            <li><a href="./index.html" title="Página de inicio">Inicio</a></li>
-            <li><a href="./somos-panaderos.html" title="Tus panaderos y pasteleros en Aginaga">Quiénes somos</a></li>
-            <li><a href="./productos-panaderia.html" title="Nuestros mejores panes, pasteles y torrijas">Productos</a></li>
-            <li><a href="./contacta-con-nosotros.html" title="Contacto con Panadería Aginaga">Contacto</a></li>
-        </ul>
-
-        <ul class="idiomas">
-            <li><a href="">eu</a></li>
-            <li><a href="">es</a></li>
-            <li><a href="">fr</a></li>
-        </ul> 
-    </nav>
+    <?php
+    // es código php
+    include './php/includes/nav.php'
+    ?>
 
 
     <!-- HERO01 -->
@@ -72,7 +60,7 @@
         <div>            
             <img src="./assets/img/logos/panaderia-aginaga-logo.svg" alt="Logotipo Panadería Aginaga" title="Panadería Aginaga" width="500" height="300">
         </div>
-        <a href="./contacta-con-nosotros.html" class="boton" title="Encuentra Panadería Aginaga">Encuéntranos</a>    
+        <a href="./contacta-con-nosotros.php" class="boton" title="Encuentra Panadería Aginaga">Encuéntranos</a>    
     </header>
 
 
@@ -135,7 +123,7 @@
                 <div>
                     <h3>Nuestra historia: tradición panadera desde 1954 en Aginaga</h3>
                     <p>Desde que la amona Miren encendió por primera vez el horno de leña en 1954, nuestra <b>panadería artesanal</b> en Aginaga se ha convertido en el punto de encuentro del barrio y de quienes cruzan el puente desde <b>Usurbil</b> en busca de un <b>pan auténtico</b>. Tres generaciones después seguimos trabajando con la misma masa madre centenaria, alimentada a diario con harina de caseríos cercanos y agua del Urola. Hemos pasado de vender barras envueltas en papel de estraza a ofrecer hogazas de larga fermentación y <b>pastelería de autor</b>, pero sin renunciar a los valores que nos hicieron nacer: respeto por el tiempo de la masa, ingredientes de <b>kilómetro cero</b> y el compromiso de hornear cada madrugada para que el aroma a <b>pan recién hecho</b> despierte al pueblo. Esa fidelidad a la tradición, combinada con una mirada innovadora, nos ha posicionado como la mejor <b>panadería</b> de la zona.</p>
-                    <a href="./somos-panaderos.html" class="moduloBoton02">
+                    <a href="./somos-panaderos.php" class="moduloBoton02">
                         <span>Conócenos</span>
                         <img src="./assets/img/system/arrow-forward-outline.svg" alt="Ir a Quiénes somos" title="Conócenos">
                     </a>
@@ -157,7 +145,7 @@
                 <div>
                     <h3>Equipo humano: maestros panaderos y reposteros locales</h3>
                     <p>Detrás de cada hogaza y de cada pastel hay un equipo que combina oficio, creatividad y cercanía. El maestro panadero <b>Iñaki Uriarte</b> dirige el obrador con más de <b>25 años de experiencia</b>, cuidando cada fermentación como si fuera la primera. A su lado, la pastelera <b>Ane Etxeberria</b> fusiona técnicas francesas con sabores vascos—intxaursalsa, txakoli, miel de azahar de la costa—para firmar una repostería que atrae a clientes de toda Gipuzkoa. Les acompañan Jon y Maialen, antiguos alumnos de la Escuela de Hostelería de Donostia, encargados de los procesos de trazabilidad y de la atención en tienda. Juntos formamos una familia comprometida con el <b>producto local</b>, la <b>formación continua</b> y la <b>sostenibilidad</b>: donamos excedentes a comedores sociales y empleamos energía <b>100 % renovable</b>. Nuestra vocación es sencilla: ser la <b>panadería y pastelería cercana</b> en la que puedas confiar cada día.</p>
-                    <a href="./somos-panaderos.html" class="moduloBoton02">
+                    <a href="./somos-panaderos.php" class="moduloBoton02">
                         <span>Conócenos</span>
                         <img src="./assets/img/system/arrow-forward-outline.svg" alt="Ir a Quiénes somos" title="Conócenos">
                     </a>
@@ -173,7 +161,7 @@
                 <div class="textos">
                     <h2><b>Nuestros productos artesanos</b></h2>                  
                     <p>Nuestra carta de productos se actualiza cada estación, pero se fundamenta en tres pilares que definen nuestra identidad. En primer lugar, el <b>pan de masa madre</b> que fermenta durante 24 horas, desarrollando una corteza crujiente y un alveolado irregular lleno de sabor y nutrientes: es el favorito de quienes nos buscan como “<b>panadería en Aginaga</b>” o “<b>pan masa madre en Usurbil</b>”. En segundo lugar, nuestros <b>pasteles artesanos</b>, elaborados con mantequilla y huevos de caserío, sin aromas artificiales, con rellenos de temporada como crema de avellana de Navarra o compota de manzana reineta. Finalmente, las <b>torrijas</b>, inspiradas en la receta de la amona pero disponibles todo el año; las servimos con miel de azahar o con un delicado almíbar de vainilla bourbon que las hace inolvidables. Cada producto cuenta con su propio proceso cuidadoso, fichas de alérgenos actualizadas y la posibilidad de <b>reserva online</b> para que llegues y lo tengas listo. Además, nuestras famosas <b>torrijas de Aginaga</b> pueden reservarse en línea para cualquier celebración, destacando nuestra <b>panadería en Aginaga</b> como la opción preferida para un dulce tradicional.</p>
-                    <a href="./productos-panaderia.html" class="moduloBoton02">
+                    <a href="./productos-panaderia.php" class="moduloBoton02">
                         <span>Más información</span>
                         <img src="./assets/img/system/arrow-forward-outline.svg" alt="Ir a Nuestros productos" title="Más información">
                     </a>
@@ -192,84 +180,9 @@
 
 
     <!-- FOOTER -->
-    <footer>
-        <!-- caja superior de información -->
-        <div>
-            <div class="cajaInfo"> 
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Quienes somos</a></li>
-                    <li><a href="">Servicios</a></li>
-                    <li><a href="">Contacto</a></li>
-                </ul>
-            </div>
-
-            <div class="cajaInfo">
-                <ul>
-                    <li><a href="">Página de interés 1</a></li>
-                    <li><a href="">Página de interés 2</a></li>
-                </ul>
-                <div class="rrss">
-                    <a href="" title="Facebook de la [empresa]" target="_blank">
-                        <img src="./assets/img/system/logo-facebook.svg" alt="Facebook de la [empresa]" title="Facebook de la [empresa]" width="30" height="30">
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/igor-aranaz-pastor/" title="Visita nuestro linkedin" target="_blank">
-                        <img src="./assets/img/system/logo-linkedin.svg" alt="Visita nuestro linkedin" title="Visita nuestro linkedin" width="30" height="30">
-                    </a>
-
-                    <a href="" title="Instagram de nuestra [empresa]" target="_blank">
-                        <img src="./assets/img/system/logo-instagram.svg" alt="Instagram de nuestra [empresa]" title="Instagram de nuestra [empresa]" width="30" height="30">
-                    </a>
-
-                    <a href="https://www.youtube.com/@LiquidArtDevelopers" title="YouTube de nuestra [empresa]" target="_blank">
-                        <img src="./assets/img/system/logo-youtube.svg" alt="YouTube de nuestra [empresa]" title="YouTube de nuestra [empresa]" width="30" height="30">
-                    </a>
-                </div>
-            </div>
-
-            <div class="cajaInfo">
-                <ul>
-                    <li>
-                        <a href="tel:+34943123123" title="Llámanos al 943 123 123" target="_blank">
-                            <img src="./assets/img/system/call.svg" alt="Llámanos al 943 123 123" title="Llámanos al 943 123 123" width="20" height="20"> 
-                            <span>943 123 123</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://api.whatsapp.com/send/?phone=34628749350" title="Escríbenos al whatsapp 600 123 123" target="_blank">
-                            <img src="./assets/img/system/logo-whatsapp.svg" alt="Escríbenos al whatsapp 600 123 123" title="Escríbenos al whatsapp 600 123 123" width="20" height="20"> 
-                            <span>600 123 123</span>
-                        </a>
-                    </li>       
-
-                    <li>
-                        <a href="mailto:aranaz@gmail.com" title="Mándanos un correo a la siguiente dirección correo@correo.com" target="_blank">
-                            <img src="./assets/img/system/mail.svg" alt="Mándanos un correo a la siguiente dirección correo@correo.com" title="Mándanos un correo a la siguiente dirección correo@correo.com" width="20" height="20"> 
-                            <span>correo@correo.com</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="https://maps.app.goo.gl/EB3bPiGW1yfoJg3p9" title="Estamos en Donostia en la dirección Paseo Portuetxe 23b, 413 Donostia" target="_blank">
-                            <img src="./assets/img/system/location.svg" alt="Estamos en Donostia en la dirección Paseo Portuetxe 23b, 413 Donostia" title="Estamos en Donostia en la dirección Paseo Portuetxe 23b, 413 Donostia" width="20" height="20"> 
-                            <span>Paseo Portuetxe 23b<br>413 Donostia</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-        <!-- caja inferior de info -->
-        <div>
-            <img src="https://dummyimage.com/200x80" alt="" title="" width="200" height="80">
-            <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, nostrum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, animi quod fugiat dolor eius enim odio vitae cum exercitationem. Deserunt saepe culpa officia expedita corrupti quo rerum ipsum dolore veniam!</p>
-                <p>Lorem, ipsum dolor.</p>
-            </div>
-        </div>
-    </footer>
+    <?php
+    include './php/includes/footer.php'
+    ?>
 
 </body>
 </html>
