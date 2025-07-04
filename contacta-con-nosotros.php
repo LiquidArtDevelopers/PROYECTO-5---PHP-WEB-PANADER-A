@@ -25,6 +25,7 @@
     
 
     <main>
+        <!-- SECCIÓN FORM -->
         <section>
             <div class="h2Especial">
                 <span></span>
@@ -48,7 +49,7 @@
             <article class="artForm">
                 <h3>Lorem ipsum dolor sit.</h3>
 
-                <form action="./php/endPointForm.php" method="post">
+                <form action="./php/app/gestionForm.php" method="post">
 
                     <label for="nombre">Nombre *</label>
                     <input type="text" name="" id="nombre" placeholder="* Escribe tu nombre" required minlength="3" maxlength="20">
@@ -66,7 +67,8 @@
 
                     <p>* Campos obligatorios</p>
 
-                </form>                
+                </form>
+
             </article>
         </section>
 
