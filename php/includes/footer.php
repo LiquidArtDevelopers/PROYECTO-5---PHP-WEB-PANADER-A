@@ -2,12 +2,10 @@
     <!-- caja superior de información -->
     <div>
         <div class="cajaInfo"> 
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Quienes somos</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
+            <?php
+            // enlaces de la web
+            include './php/includes/enlaces_menu.php'
+            ?>
         </div>
 
         <div class="cajaInfo">

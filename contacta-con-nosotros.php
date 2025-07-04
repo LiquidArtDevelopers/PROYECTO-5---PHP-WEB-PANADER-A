@@ -6,8 +6,14 @@
     <title>Contacta con nosotros/as</title>
     <link rel="stylesheet" href="./assets/css/contacto.min.css">
 
-    <!-- V2 COOKIE LAD -->
-    <script defer src="https://webda.eus/apis/cookielad/loader.js?key=barbakoaEnJulio!&color=d14d4d"></script>
+    <!-- Url de esta vista -->
+    <link rel="canonical" href="https://profe.webda.eus/contacta-con-nosotros.php"> 
+
+    <?php
+    // Metadatos globales
+    include './php/includes/metadatos_globales.php'
+    ?>
+
 </head>
 <body>
 

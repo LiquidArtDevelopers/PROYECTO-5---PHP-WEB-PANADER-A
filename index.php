@@ -3,46 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Panadería en Aginaga – Torrijas y pan masa madre artesanos únicos</title>
     <meta name="description" content="Descubre la auténtica panadería en Aginaga: torrijas de Aginaga, pan de masa madre y pastelería artesanal. Calidad kilómetro cero, reserva online y envíos en Usurbil y Orio.">
 
     <!-- linko el css que le corresponde a esta vista -->
     <link rel="stylesheet" href="./assets/css/main.min.css">
 
-    <!-- otros metadatos importantes para cada vista -->
-
     <!-- Url de esta vista -->
-    <link rel="canonical" href=""> 
+    <link rel="canonical" href="https://profe.webda.eus"> 
 
-    <!-- Indexación y autoridad-->
-    <meta name="robots" data-lang="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
-    <meta name="referrer" content="origin">
-
-    <!-- utilidades para móvil -->
-    <meta name="mobile-web-app-capable" content="yes">
-    
-    <!-- Global Icons -->
-     <!-- ico -->
-    <link rel="icon" href="./assets/img/logos/favicon.ico" type="image/x-icon">
-    <!-- svg -->
-    <link rel="icon" href="./assets/img/logos/panaderia-aginaga-logo.svg" type="image/svg+xml">
-    <link rel="mask-icon" href="./assets/img/logos/panaderia-aginaga-logo.svg" color="#000000" type="image/svg+xml">
-    <!-- 32x32.png -->
-    <link rel="icon" href="./assets/img/logos/panaderia-aginaga-logo-32x32.png" type="image/png"> 
-    <!-- 192x192.png -->
-    <link rel="icon" href="" type="image/png">
-     <!-- 32x32.png -->
-    <link rel="shortcut icon" href="./assets/img/logos/panaderia-aginaga-logo-32x32.png" type="image/png">
-    <!-- 180x180.png -->
-    <link rel="apple-touch-icon-precomposed" href="./assets/img/logos/panaderia-aginaga-logo-180x180.png" type="image/png">
-    <!-- 270x270.png -->
-    <meta name="msapplication-TileImage" content="./assets/img/logos/panaderia-aginaga-logo-270x270.png">
-
-
-    <!-- V2 COOKIE LAD -->
-    <script defer src="https://webda.eus/apis/cookielad/loader.js?key=barbakoaEnJulio!&color=d14d4d"></script>
-
-
+    <?php
+    // Metadatos globales
+    include './php/includes/metadatos_globales.php'
+    ?>
 
 </head>
 <body>

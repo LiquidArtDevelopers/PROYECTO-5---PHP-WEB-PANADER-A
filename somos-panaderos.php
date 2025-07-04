@@ -9,8 +9,13 @@
     <!-- linko el css que le corresponde a esta vista -->
      <link rel="stylesheet" href="./assets/css/somos-panaderos.min.css">
 
-    <!-- V2 COOKIE LAD -->
-    <script defer src="https://webda.eus/apis/cookielad/loader.js?key=barbakoaEnJulio!&color=d14d4d"></script>
+    <!-- Url de esta vista -->
+    <link rel="canonical" href="https://profe.webda.eus/somos-panaderos.php"> 
+
+    <?php
+    // Metadatos globales
+    include './php/includes/metadatos_globales.php'
+    ?>
 </head>
 <body>
 
